@@ -2,9 +2,9 @@ ETHZ-ASL PTAM
 ===========================
 
 > ETHZ-ASL PTAM tested
->
+> 
 > Calibration working
->
+> 
 > PTAM "working" only if you keep a part of the initial image into the FOV. 
 
 Dependencies

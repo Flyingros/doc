@@ -9,7 +9,7 @@ Dependencies
 Installation
 -----------
 
-```
+```bash
 cd ~/Workspace/Catkin/src
 git clone https://github.com/ethz-asl/rovio
 git clone https://github.com/ethz-asl/kindr

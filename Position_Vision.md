@@ -47,8 +47,8 @@ Libraries widely used
 * MAVMAP (Open source) -  https://github.com/mavmap/mavmap
 * Pix4D (Closed source) - https://pix4d.com/
 
-Performances
------------
+Performances of SVO
+-----------------
 
 SVO for more fps (60cm error RMS)
 
@@ -58,7 +58,7 @@ SVO works better on a down facing camera
 
 SVO works better with a wide angle camera
 
-Some more theory
+Some vocabulary
 -----------------
 
 VO : Visual Odometry is the process of incrementally estimating the pose of the vehicle by examining the changes that motion induces on the images of its onboard camera(s). Assumptions : **Sufficient illumination**, **dominance of static** scene over moving objects, **Enough texture** to allow apparent motion to be extracted and **sufficient scene overlap** between consecutive frames. It focuses on **real-time**, on a **sequential** dataset.

@@ -1,25 +1,25 @@
-MSF_INTEGRATION
+Sensor fusion with MSF
 ================
 
 MSF is a **modular** framework used to fuse data from multiple sensors. It actulally can merge the IMU, GPS, Altitude, Position, Pose (position + orientation) and a spherical position.
 
-You can check [MSF.MD](MSF.MD) for more detailed *informations* about the framework and the *installation*.
+MSF is is **modular** as you can make a node which integrates implemented sensors. This node has to be implemented by yourself if no existing node works for you.
 
 Sensors implemented `ethzasl_msf\msf_updates\include`
 -----------------
 
-* msf_pose_pressure_sensor : altitude 
+* msf\_pose\_pressure\_sensor : altitude 
   * &lt;geometry_msgs::PointStamped&gt; to `msf_updates/topic_namespace/pressure_height`
-* msf_position_sensor : position
-  * &lt;geometry_msgs::PointStamped&gt; to `msf_updates/topic_namespace/position_input`
-  * &lt;geometry_msgs::TransformStamped&gt; to `msf_updates/topic_namespace/transform_input`
-  * &lt;sensor_msgs::NavSatFix&gt; to `msf_updates/topic_namespace/navsatfix_input`
-* msf_pose_sensor : position and orientation
-  * &lt;geometry_msgs::PoseWithCovarianceStamped&gt; to `msf_updates/topic_namespace/pose_with_covariance_input`
-  * &lt;geometry_msgs::TransformStamped&gt; to `msf_updates/topic_namespace/transform_input`
-  * &lt;geometry_msgs::PoseStamped&gt; to `msf_updates/topic_namespace/pose_input`
-* msf_spherical_position : position from external pointing (2 angle as roll is useless) and a distance
-  * &lt;geometry_msgs::PointStamped&gt; to `msf_updates/topic_namespace/angle_input`
+* msf\_position\_sensor : position
+  * &lt;geometry\_msgs::PointStamped&gt; to `msf_updates/topic_namespace/position_input`
+  * &lt;geometry\_msgs::TransformStamped&gt; to `msf_updates/topic_namespace/transform_input`
+  * &lt;sensor\_msgs::NavSatFix&gt; to `msf_updates/topic_namespace/navsatfix_input`
+* msf\__pose\__sensor : position and orientation
+  * &lt;geometry\__msgs::PoseWithCovarianceStamped&gt; to `msf_updates/topic_namespace/pose_with_covariance_input`
+  * &lt;geometry\__msgs::TransformStamped&gt; to `msf_updates/topic_namespace/transform_input`
+  * &lt;geometry\__msgs::PoseStamped&gt; to `msf_updates/topic_namespace/pose_input`
+* msf_spherical\__position : position from external pointing (2 angle as roll is useless) and a distance
+  * &lt;geometry\__msgs::PointStamped&gt; to `msf_updates/topic_namespace/angle_input`
 
 Nodes implementing sensors `ethzasl_msf\msf_updates\src`
 -----------------------
@@ -192,5 +192,5 @@ Installation
 cd ~/Workspace/Catkin/src
 git clone https://github.com/ethz-asl/ethzasl_msf
 cd ~/Workspace/Catkin
-catkin_make -j1 # On the Odroid, don't build with too many cores or it will probably freeze and you will have to reboot.
+catkin_make -j1 # On the Odroid, don't build with too many cores or it will probably freeze and you will have to reboot. You may need to add some swap.
 ```

@@ -18,8 +18,6 @@ To make SVO works well
 Installation
 ---------------
 
-Tested on the Odroid XU4
-
 ```
 # It activate NEON FLAGS for ARM
 echo export ARM_ARCHITECTURE=True >> ~/.bashrc

@@ -1,6 +1,6 @@
 # Summary
 
-* [Overview](README.md)
+* [Overview](Readme.md)
 * [Project Architecture](Project_architecture.md)
 * [Installation](Install_flyingros.md)
 
@@ -8,6 +8,7 @@
 * [Navigation](Navigation.md)
 * [Web interface](Web.md)
 * [Libraries](Libraries.md)
+    * [Tasks.py](Library_tasks.md)
 
 ### Positioning System
 * [Existing systems](Position.md)
@@ -30,5 +31,5 @@
 ### Other informations
 * [Mavros](Install_mavros.md)
 * [External programs](External_programs.md)
-  * [ESC Control](External_esc_control.md)
-  * [Six Laser under ROS](External_lasers.md)
+    * [ESC Control](External_esc_control.md)
+    * [Six Laser under ROS](External_lasers.md)
