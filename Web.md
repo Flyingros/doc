@@ -15,8 +15,7 @@ sudo apt-get install nodejs-legacy
 sudo apt-get install npm  
 npm install -g gulp  
 npm install  
-gulp build
-# or simply gulp to develop
+gulp build # or simply gulp to develop
 ```
 
 
