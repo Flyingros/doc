@@ -11,7 +11,7 @@ Installation
 ------------
 
 See [INSTALL](INSTALL.md)
-
+ 
 Actual status
 ------------
 
