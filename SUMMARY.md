@@ -33,3 +33,7 @@
 * [External programs](External_programs.md)
     * [ESC Control](External_esc_control.md)
     * [Six Laser under ROS](External_lasers.md)
+
+### About
+* [The team](About.md)
+* [Publications](Publications.md)
