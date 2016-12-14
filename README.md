@@ -3,14 +3,14 @@ FlyingROS [![Build Status](https://api.travis-ci.org/AlexisTM/flyingros.svg?bran
 
 Around the Internet of robotics, there is a lot of open-source/open-hardware projects to make an awesome flying robot : **ROS**, **MAVLink**, **PX4**, **Mavros**, **Odroid XU4**. Multiple companies uses thoses projects to make money without contributing to the community. That's why FlyingROS comes to life. To bring user an ***easy*** way to fly multicopters with all tools incorporated together.
 
-Flying Robot Operating System is designed to be the main **OPEN-SOURCE** package for your multicopter consumer application or closed-source commercial application.
+Flying Robot Operating System is designed to be a great example of an application to make your own autonomous multicopter or robot, giving advice and the way to do it for all the technologies you would need to use.
 
 The way the packages are organized are available in the [Project architecture](PROJECT_ARCHITECTURE.MD) file.
 
 Actual status
 ------------
 
-Experimental, do not use unless you want to develop with us.
+Experimental, do not use it yet unless you want to develop with us.
 
 Hardware
 ------------
