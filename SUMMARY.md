@@ -4,7 +4,7 @@
 * [Introduction](README.md)
 * [Project Architecture](Project_architecture.md)
 * [Installation](Install_flyingros.md)
-* [Quick start](Quick_start.md)
+* [Quick start with total station](Quick_start.md)
 * [Known bugs & fixes](known-bugs--fixes.md)
 
 ## Flyingros informations
